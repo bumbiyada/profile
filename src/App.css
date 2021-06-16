@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+.container {
+    display: grid;
+    grid-gap: 5px;    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 840px 50px;
+    grid-template-areas:
+        "h h h h h h h h h h h h "
+        "m m b b b b b c c c c c "
+        "f f f f f f f f f f f f ";
+}
+
+.containerHeader {
+  grid-area: h;
+}
+
+.containerBio {
+  grid-area: b;
+}
+
+.containerNavbar {
+  grid-area: m;
+}
+
+.containerProject {
+  grid-area: c;
+}
+.containerFooter {
+  grid-area: f;
 }
