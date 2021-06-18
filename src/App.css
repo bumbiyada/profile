@@ -41,19 +41,19 @@
     display: grid;
     grid-gap: 5px;    
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 50px 840px 50px;
+    grid-template-rows: 50px 440px 50px;
     grid-template-areas:
         "h h h h h h h h h h h h "
-        "m m b b b b b c c c c c "
+        "m m c c c c c c c c c c "
         "f f f f f f f f f f f f ";
 }
 
-.containerHeader {
+/*.containerHeader {
   grid-area: h;
 }
 
 .containerBio {
-  grid-area: b;
+  grid-area: c;
 }
 
 .containerNavbar {
@@ -65,4 +65,4 @@
 }
 .containerFooter {
   grid-area: f;
-}
+}*/

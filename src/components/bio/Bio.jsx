@@ -5,7 +5,7 @@ import S from './bio.module.css'
 const Bio = () => {
 	return(
 		<div className={S.content}>
-		Bio \n
+		Bio GRAPHHHHHH
 		links
 		</div>
 		)
